@@ -1,0 +1,173 @@
+@font-face{
+    font-family: mitipo;
+    src:url(fuente.woff);
+}
+body{
+    width: 900px;
+	height: auto; vertical-align: bottom;
+	border: 1px solid #000;
+	margin: auto; 
+}
+.gris{
+    background: #00ADEF;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding: 10px
+}
+
+#menu-wrapper ul{
+    padding: 0;
+    list-style: none;
+}
+#hmenu > li{
+    display: inline-block;
+    padding: 10px 5px;
+    width: 100;
+}
+li ul{
+    position: absolute;
+    display: none;
+}
+.sub-menu a{
+    display: block;
+    padding: 10px 5px;
+    width: 150px;
+}
+li:hover ul{
+    display: block;
+}
+#menu-wrapper, li ul{
+    background: #00264D;
+   
+}
+#hmenu {
+    width: 1000px;
+    margin: 0 auto;
+}
+#hmenu a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#hmenu li:hover{
+    background: #a3cd39;
+    text-shadow: 0 0 2px #333;
+}
+
+.menu a:hover{
+    background: #0CAA9D
+}
+
+.img1{
+    width: 970px;
+}
+#contenedor{
+    width: 970px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+#contenedor ul{
+    list-style: none;
+    width: 4120px;
+    display: flex;
+    
+    animation: slide 20s infinite alternate;
+}
+
+@keyframes slide{
+    0% {margin-left: 0px;}
+    20% {margin-left: 0px;}
+    
+    25% {margin-left: -970px;}
+    45% {margin-left: -970px;}
+    
+    50%{margin-left: -1940px;}
+    70%{margin-left: -1940px;}
+    
+    75%{margin-left: -2910px;}
+    100%{margin-left: -2910px;}
+}
+#categorias{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 1px solid;
+	margin-top: 10px;
+}
+
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.parrafo{
+	color: #707070;
+	text-align: justify;
+}
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+
+.uno ul{}
+
+.uno ul li{
+	list-style: none;
+	float: inherit;
+}
+
+.uno ul li a{
+	text-decoration: none;
+	padding: 7px 10px;
+	border: 1px solid green;
+	color: blue; 
+}
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; color: 
+}
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 7px; color: #4682b4;
+}
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: 
+}
+
